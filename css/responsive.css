@@ -3,7 +3,7 @@
 @media screen and (max-width: 992px) {
   body {
     margin: 0;
-    padding: 20px;
+    padding: 0;
   }
 
   .row {

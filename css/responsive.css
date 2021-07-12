@@ -2,20 +2,19 @@
 
 @media screen and (max-width: 992px) {
   body {
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
   }
 
   .row {
   width: 100%;
-  margin-top: 0;
+  /* margin-top: 0; */
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: calc(50% - 10px * 2);
+    width: calc(50% - 20px * 2);
     float: left;
-    margin: 10px;
+    margin: 10px 20px;
   }
 
   #lezioni img {
@@ -28,7 +27,15 @@
   #steps .row>.right {
     width: 100%;
     float: left;
-    margin: 40px 0;
+    /* margin: 40px 0; */
+    /* background-color: red; */
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: calc(100% - 20px * 2);
+    margin: 40px 20px;
   }
 }
 
